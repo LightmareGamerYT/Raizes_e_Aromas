@@ -1,5 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap'); */
+
+@font-face {
+    font-family: "Imprima";
+    src: url(./fonts/Imprima-Regular.ttf);
+}
+
+@font-face {
+    font-family: "IslandMoments";
+    src: url(./fonts/IslandMoments-Regular.ttf);
+}
 
 /* @font-face {
     font-family: ;
@@ -32,15 +42,15 @@
 
 /* --------------Banner-------------- */
 
-/* .Banner-Inicial {
+.Banner-Inicial {
     display: flex;
     justify-content: center;
-    /* Para Centralizar
+    /* Para Centralizar*/
 
     max-width: 2560px;
     height: 1195px;
-    /* Tamanho Adequado 
-} */
+    /* Tamanho Adequado */
+}
 
 /* -------------Menu------------- */
 
@@ -71,6 +81,14 @@ header img {
     color: var(--preto);
     text-decoration: none;
     text-transform: uppercase;
+
+    font-family: "Imprima";
+
+}
+
+.menu a #Login {
+    background-color: var(--cor-da-paleta-Verde-Escuro);
+    border-radius: 20px;
 
 }
 
@@ -158,4 +176,65 @@ header img {
         color: var(--preto);
     }
 
+}
+
+/* .banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-between;
+    justify-content: flex-start;
+    align-self: flex-start;
+
+} */
+
+/* ------------Sobre a Loja------------ */
+#Sobre {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 120px;
+}
+
+/* /* #Sobre h2 {
+    margin-right: -15px;
+    margin-left: 40px;
+    margin-bottom: 290px; 
+
+} */
+
+#Sobre p {
+    font-family: "Imprima";
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 30px;
+
+}
+
+/* ------------------------------------------ */
+
+#Sobre img {
+    max-width: 460px;
+    width: 40%;
+
+}
+
+.Título-Loja {
+    margin-top: 500px;
+    font-weight: 400;
+    font-size: 35px;
+
+    text-align: center;
+    margin-left: -700px;
+    font-family: "IslandMoments";
+
+    background-color: var(--cor-da-paleta-Verde-Escuro);
+    border-radius: 30px;
+
+    color: var(--branco);
+    padding: 10px 18px;
+
+}
+
+#Sobre-Loja{
+    text-align: flex; 
 }
