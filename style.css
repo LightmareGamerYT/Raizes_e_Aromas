@@ -316,7 +316,7 @@ p {
 }
 
 /* ---------------Login--------------- */
-.título{
+.título {
     margin-top: 500px;
     font-family: "Imprima";
     margin-top: 300px;
@@ -473,4 +473,28 @@ p {
     color: var(--branco);
     font-size: 40px;
 
+    margin-bottom: 50px;
+
 }
+
+/* ----------Footer---------- */
+
+
+footer {
+    background-color: #000;
+    height: 500px;
+}
+
+footer p {
+    font-family: "Imprima";
+    font-size: 15px;
+
+    margin-left: 140px;
+    margin-top: 150px;
+}
+
+.icones-redes {
+    margin-left: 1900px;
+    margin-top: 25px;
+}
+
