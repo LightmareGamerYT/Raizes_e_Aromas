@@ -482,7 +482,7 @@ p {
 
 footer {
     background-color: #000;
-    height: 500px;
+
 }
 
 footer p {
@@ -490,11 +490,16 @@ footer p {
     font-size: 15px;
 
     margin-left: 140px;
-    margin-top: 150px;
+    padding-top: 30px;
+
 }
 
 .icones-redes {
-    margin-left: 1900px;
-    margin-top: 25px;
+    margin-left: 800px;
 }
 
+footer img{
+    justify-content: center;
+    display: flex;
+    
+}
