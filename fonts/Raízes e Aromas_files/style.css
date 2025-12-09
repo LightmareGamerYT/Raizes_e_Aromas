@@ -1,0 +1,241 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap'); */
+
+@font-face {
+    font-family: "Imprima";
+    src: url(./fonts/Imprima-Regular.ttf);
+}
+
+@font-face {
+    font-family: "IslandMoments";
+    src: url(./fonts/IslandMoments-Regular.ttf);
+}
+
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --branco: #fff;
+    --preto: #000;
+    --cor-da-raizes-e-aromas: #9CAF88;
+    --cor-da-paleta: #A8B5A2;
+    --cor-da-paleta-Verde-Escuro: #0F5E0E;
+    --cor-da-paleta-Marrom: #8B6C42;
+
+}
+
+.espaco-lateral {
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+/* --------------Banner-------------- */
+
+.Banner-Inicial {
+    display: flex;
+    justify-content: center;
+    /* Para Centralizar*/
+
+    max-width: 2560px;
+    height: 1195px;
+    /* Tamanho Adequado */
+}
+
+/* -------------Menu------------- */
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+header img {
+    width: 200px;
+
+}
+
+.menu {
+    max-width: 700px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu a {
+    font-size: 23px;
+    color: var(--preto);
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: "Imprima";
+
+}
+
+.menu a #Login {
+    background-color: var(--cor-da-paleta-Verde-Escuro);
+    border-radius: 20px;
+
+}
+
+.menu a:hover {
+    color: var(--cor-da-raizes-e-aromas);
+    transition: 300ms;
+
+}
+
+/* --------------Menu de Hamburguer-------------- */
+
+#icone-barras,
+#icone-x,
+#menu_botao {
+    display: none;
+
+}
+
+
+
+/* ------------Responsividade------------ */
+
+@media screen and (max-width: 768px) {
+
+    #sombra {
+        background-color: var(--cor-da-raizes-e-aromas);
+        backdrop-filter: blur(15px);
+        z-index: 1;
+        position: fixed;
+
+        width: 100vw;
+        height: 100vh;
+        right: -101vw;
+        transition: .5s;
+
+    }
+
+    #menu_botao {
+        display: block;
+        z-index: 1;
+
+    }
+
+    header {
+        position: relative;
+
+    }
+
+    header button {
+        width: 50px;
+        background: none;
+
+        border: none;
+        display: unset;
+
+        cursor: pointer;
+    }
+
+    header svg {
+        fill: var(--cor-da-paleta-Marrom);
+    }
+
+    #icone-barras {
+        display: block;
+
+    }
+
+    nav.menu {
+        width: 200px;
+        padding: 0px 30px;
+        flex-direction: column;
+        justify-content: space-around;
+
+        gap: 15px;
+        position: fixed;
+        top: 165px;
+        right: -210px;
+        z-index: 1;
+
+        transition: .5s;
+
+    }
+
+    .menu a {
+        color: var(--preto);
+    }
+
+}
+
+/* .banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-between;
+    justify-content: flex-start;
+    align-self: flex-start;
+
+} */
+
+/* ------------Sobre a Loja------------ */
+#Sobre {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 120px;
+}
+
+/* /* #Sobre h2 {
+    margin-right: -15px;
+    margin-left: 40px;
+    margin-bottom: 290px; 
+
+} */
+
+#Sobre p {
+    font-family: "Imprima";
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 30px;
+
+}
+
+/* ------------------------------------------ */
+
+#Sobre img {
+    max-width: 460px;
+    width: 40%;
+
+}
+
+.Título-Loja {
+    margin-top: 500px;
+    font-weight: 400;
+    font-size: 35px;
+
+    text-align: center;
+    margin-left: -700px;
+    font-family: "IslandMoments";
+
+    background-color: var(--cor-da-paleta-Verde-Escuro);
+    border-radius: 30px;
+
+    color: var(--branco);
+    padding: 10px 18px;
+    margin-bottom: 0;
+
+}
+
+#Sobre-Loja{
+    text-align: flex; 
+}
