@@ -228,7 +228,7 @@ header img {
 .Título-Loja {
     margin-top: 300px;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 48px;
     margin-left: 200px;
 
     text-align: center;
@@ -251,8 +251,6 @@ header img {
     border-radius: 90px;
     margin-top: 400px;
 
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
-
 }
 
 #Promoções {
@@ -264,7 +262,7 @@ header img {
 
 #Promoções h1 {
     font-family: "IslandMoments";
-    font-size: 55px;
+    font-size: 75px;
 
 }
 
@@ -281,15 +279,13 @@ header img {
 
 #Produtos .card {
     cursor: pointer;
-    animation: normal;
-    animation-delay: 1s;
-    background-color: var(--cor-da-paleta-Marrom);
 
     width: 400px;
     height: 700px;
     margin: 60px;
     border-radius: 50px;
 
+    margin-bottom: 200px;
 
     display: flex;
     flex-direction: column;
@@ -304,19 +300,20 @@ header img {
 
 }
 
-#Produtos .card:hover{
+#Produtos .card:hover {
     background-color: var(--cor-da-paleta-Verde-Escuro);
-    transition: ease-in-out 1s;
-    -o-transition-duration: 1s;
-    
+    transition: ease-in-out 0.5s;
+
 }
+
+
 
 .card h3,
 p {
     font-family: "Imprima";
     font-size: 40px;
     margin-top: 30px;
-    color: #f2f2f2;
+    color: var(--branco);
 
 }
 
@@ -343,10 +340,10 @@ p {
 #Login {
     margin-top: 100px;
     margin-bottom: 220px;
-    background-color: var(--cor-da-paleta);
+    background-color: #f2f2f2;
     border-radius: 50px;
 
-    box-shadow: 9px 9px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
     padding-top: 30px;
 }
 
@@ -386,10 +383,10 @@ p {
 .campo input {
     color: var(--preto);
 
-    border-top: 3px solid var(--cor-da-raizes-e-aromas);
-    border-right: 5px solid var(--cor-da-raizes-e-aromas);
-    border-bottom: 10px solid var(--cor-da-raizes-e-aromas);
-    border-left: 6px solid var(--cor-da-raizes-e-aromas);
+    /* border-top: 3px solid var(--preto);
+    border-right: 5px solid var(--preto);
+    border-bottom: 10px solid var(--preto);
+    border-left: 6px solid var(--preto); */
 
     border-radius: 10px;
 
@@ -403,10 +400,10 @@ p {
 .campo-descricao textarea {
     color: var(--preto);
 
-    border-top: 3px solid var(--cor-da-raizes-e-aromas);
-    border-right: 5px solid var(--cor-da-raizes-e-aromas);
-    border-bottom: 10px solid var(--cor-da-raizes-e-aromas);
-    border-left: 6px solid var(--cor-da-raizes-e-aromas);
+    /* border-top: 3px solid var(--preto);
+    border-right: 5px solid var(--preto);
+    border-bottom: 10px solid var(--preto);
+    border-left: 6px solid var(--preto); */
 
     border-radius: 10px;
 
@@ -418,7 +415,7 @@ p {
 
 .campo-descricao {
     width: 920px;
-    ;
+
     text-align: left;
 
     font-size: 40px;
@@ -435,6 +432,8 @@ p {
     color: var(--preto);
     background-color: var(--branco);
 
+    padding: 10px 10px;
+
     border: none;
     border-radius: 4px;
     outline: none;
@@ -442,10 +441,10 @@ p {
 
     height: 500px;
 
-    border-top: 3px solid var(--cor-da-raizes-e-aromas);
-    border-right: 5px solid var(--cor-da-raizes-e-aromas);
-    border-bottom: 10px solid var(--cor-da-raizes-e-aromas);
-    border-left: 6px solid var(--cor-da-raizes-e-aromas);
+    /* border-top: 3px solid var(--preto);
+    border-right: 5px solid var(--preto);
+    border-bottom: 10px solid var(--preto);
+    border-left: 6px solid var(--preto); */
 
     resize: none;
 }
@@ -453,10 +452,10 @@ p {
 .campo textarea {
     color: var(--preto);
 
-    border-top: 3px solid var(--cor-da-raizes-e-aromas);
-    border-right: 5px solid var(--cor-da-raizes-e-aromas);
-    border-bottom: 10px solid var(--cor-da-raizes-e-aromas);
-    border-left: 6px solid var(--cor-da-raizes-e-aromas);
+    /* border-top: 3px solid var(--preto);
+    border-right: 5px solid var(--preto);
+    border-bottom: 10px solid var(--preto);
+    border-left: 6px solid var(--preto); */
 
     border-radius: 10px;
 
@@ -475,17 +474,24 @@ p {
 
 #Login form button {
     cursor: pointer;
-    background-color: var(--cor-da-paleta-Verde-Escuro);
+    background-color: #4d6f39;
     margin-top: 10px;
+
     height: 65px;
     width: 412px;
     border: none;
+
     border-radius: 15px;
     color: var(--branco);
     font-size: 40px;
 
     margin-bottom: 50px;
 
+}
+
+#Login form button:hover {
+    background-color: var(--cor-da-paleta-Verde-Escuro);
+    transition: 0.5s;
 }
 
 /* ----------Footer---------- */
