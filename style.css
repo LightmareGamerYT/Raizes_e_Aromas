@@ -280,6 +280,9 @@ header img {
 }
 
 #Produtos .card {
+    cursor: pointer;
+    animation: normal;
+    animation-delay: 1s;
     background-color: var(--cor-da-paleta-Marrom);
 
     width: 400px;
@@ -464,6 +467,7 @@ p {
 }
 
 #Login form button {
+    cursor: pointer;
     background-color: var(--cor-da-paleta-Verde-Escuro);
     margin-top: 10px;
     height: 65px;
