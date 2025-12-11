@@ -304,6 +304,13 @@ header img {
 
 }
 
+#Produtos .card:hover{
+    background-color: var(--cor-da-paleta-Verde-Escuro);
+    transition: ease-in-out 1s;
+    -o-transition-duration: 1s;
+    
+}
+
 .card h3,
 p {
     font-family: "Imprima";
