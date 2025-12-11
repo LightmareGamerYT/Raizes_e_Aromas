@@ -54,6 +54,7 @@
 
 /* -------------Menu------------- */
 
+
 header {
     height: 150px;
     display: flex;
@@ -104,7 +105,6 @@ header img {
 #icone-x,
 #menu_botao {
     display: none;
-
 }
 
 
@@ -432,8 +432,6 @@ p {
     color: var(--preto);
     background-color: var(--branco);
 
-    padding: 10px 10px;
-
     border: none;
     border-radius: 4px;
     outline: none;
@@ -513,12 +511,12 @@ footer p {
 }
 
 .icones-redes {
-    margin-left: 1200px;
+    margin-left: 1300px;
 }
 
 footer img {
     justify-content: center;
     display: flex;
-    margin-left: 1000px;
+    margin-left: 50px;
 
 }
