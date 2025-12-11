@@ -205,7 +205,7 @@ header img {
 
 #Sobre-Loja p {
     font-family: "Imprima";
-    font-size: 25px;
+    font-size: 48px;
     text-align: justify;
     margin-top: 300px;
 
@@ -492,14 +492,16 @@ footer p {
     margin-left: 140px;
     padding-top: 30px;
 
+
 }
 
 .icones-redes {
-    margin-left: 800px;
+    margin-left: 1200px;
 }
 
-footer img{
+footer img {
     justify-content: center;
     display: flex;
-    
+    margin-left: 1000px;
+
 }
